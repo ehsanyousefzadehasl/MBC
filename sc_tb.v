@@ -1,3 +1,5 @@
+`timescale 1ns / 100ps // time-unit = 1 ns, precision = 100 ps
+
 module sc_tb;
     reg CLOCK;
     reg ENABLE;

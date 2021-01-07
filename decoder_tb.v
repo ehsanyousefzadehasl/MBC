@@ -1,3 +1,5 @@
+`timescale 1ns / 100ps // time-unit = 1 ns, precision = 100 ps
+
 module decoder_tb;
     reg [3:0] IN_DATA;
     

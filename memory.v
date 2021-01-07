@@ -1,4 +1,5 @@
 `timescale 1ns / 100ps // time-unit = 1 ns, precision = 100 ps
+
 module memory
 	#(parameter A = 12, D = 16) // 4096 x 16 memory
 	(

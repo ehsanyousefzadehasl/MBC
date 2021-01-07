@@ -1,4 +1,5 @@
 `timescale 1ns / 100ps // time-unit = 1 ns, precision = 100 ps
+
 module memory_tb;
 
 reg [15:0] DATA_IN;

@@ -1,3 +1,5 @@
+`timescale 1ns / 100ps // time-unit = 1 ns, precision = 100 ps
+
 module opcode_decoder(
 		input [2:0] opcode,
 		output [7:0] decoded_signal

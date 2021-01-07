@@ -1,4 +1,4 @@
-`timescale 1ns / 1ps // time-unit = 1 ns, precision = 10 ps
+`timescale 1ns / 100ps // time-unit = 1 ns, precision = 100 ps
 module alu_tb;
 
 reg [15:0] AC;  // Accumulator

@@ -1,6 +1,6 @@
 // This ALU is a 16-bit wide arithmetic unit
 // inc = signal for increasing PC (Program Counter)
-`timescale 1ns / 1ps // time-unit = 1 ns, precision = 10 ps
+`timescale 1ns / 100ps // time-unit = 1 ns, precision = 100 ps
 module alu(
 		input [15:0] AC,
 		input DR,

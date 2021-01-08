@@ -3,7 +3,7 @@
 `timescale 1ns / 100ps // time-unit = 1 ns, precision = 100 ps
 module alu(
 		input [15:0] AC,
-		input DR,
+		input [15:0] DR,
 		input [3:0] code,
 		input EI,		// EI -> input from E-FF
 		output EO, 		// EO -> output to 	E-FF

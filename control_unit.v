@@ -7,7 +7,7 @@ module control_unit(
 			input [15:0] dec_signal,							// I - decoded signal for sequential counter
 			input [7:0] dec,									// I - opcode decoder
 			output [3:0] ctrl_alu,								// O - control signals of ALU for operation selection
-			output [7:0] ar_idat,								// O - AR (Address Register)
+			output [11:0] ar_idat,								// O - AR (Address Register)
 			output [15:0] ir_idat, dr_idat, ac_idat,			// O - IR (Intruction Reg), DR (Data Reg), AC (Accumulator)
 			output ar_we, dr_we, ac_we, pc_inc, ff_en, mem_we 	// O - AR Write Enable, DR Write Enable, AC Write Enable, PC Write Enable, EFF Enable, Memory Write Enable
 		); 
